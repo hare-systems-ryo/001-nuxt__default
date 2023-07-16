@@ -6,7 +6,7 @@
 
 <style lang="scss" scoped>
 .test1 {
-  background-color: red;
+  background-color: rgb(255, 239, 239);
   padding: 10px;
   .test2 {
     background-color: rgb(185, 185, 255);
