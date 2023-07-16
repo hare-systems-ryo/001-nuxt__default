@@ -3,10 +3,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
     [
-      "@nuxtjs/eslint-module",
+      '@nuxtjs/eslint-module',
       {
-        formatter: "stylish",
+        formatter: 'stylish',
       },
     ],
   ],
+  css: ['@/assets/main.scss'],
 });
